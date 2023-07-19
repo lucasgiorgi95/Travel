@@ -39,7 +39,7 @@ window.addEventListener('resize', showButton)
         </Link>
         <div className='menu-icon' onClick={handleClick}>
           <i className='icon'>
-          {click ? <CloseIcon/> : <MenuIcon/>}
+          {click ? <CloseIcon style={{color:'#fff'}}/> : <MenuIcon style={{color:'#fff'}}/>}
           </i>
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
